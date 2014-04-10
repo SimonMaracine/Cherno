@@ -17,6 +17,7 @@ public class FileUtils {
 			while ((buffer = reader.readLine()) != null) {
 				result += buffer + "\n";
 			}
+			reader.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
