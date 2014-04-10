@@ -6,6 +6,7 @@ import com.thecherno.cherno.engine.Cherno;
 import com.thecherno.cherno.engine.graphics.Color;
 import com.thecherno.cherno.engine.graphics.Texture;
 import com.thecherno.cherno.engine.input.Keyboard;
+import com.thecherno.cherno.engine.utils.FileUtils;
 
 public class Main extends Cherno {
 
@@ -21,6 +22,7 @@ public class Main extends Cherno {
 		createDisplay("Cherno 0.1a", 960, 540);
 		setInput(KEYBOARD);
 		start();
+		
 	}
 
 	protected void update() {

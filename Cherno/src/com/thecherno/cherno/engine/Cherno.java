@@ -39,6 +39,12 @@ public abstract class Cherno implements Runnable {
 	protected void setInput(byte device) {
 		display.enable(device);
 	}
+	
+	/**
+	 * Updates Engine
+	 * <p>
+	 * <strong> Main update loop for the whole engine
+	 */
 
 	public void run() {
 		long lastTime = System.nanoTime();

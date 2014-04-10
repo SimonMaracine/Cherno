@@ -8,6 +8,12 @@ public class FileUtils {
 
 	private FileUtils() {
 	}
+	
+	/**
+	 * Reads Text from a file
+	 * <p>
+	 * <strong> Takes in text from and loads it in as a string.
+	 */
 
 	public static String loadText(String path) {
 		String result = "";

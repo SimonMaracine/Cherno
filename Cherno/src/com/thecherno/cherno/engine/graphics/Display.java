@@ -38,6 +38,12 @@ public class Display {
 		g = bs.getDrawGraphics();
 		g.drawImage(image, 0, 0, window.getWidth(), window.getHeight(), null);
 	}
+	
+	/**
+	 * Shows BufferStrategy
+	 * <p>
+	 * <strong> Disposes of the Graphics and shows the BufferStrategy 
+	 */
 
 	public void show() {
 		g.dispose();
